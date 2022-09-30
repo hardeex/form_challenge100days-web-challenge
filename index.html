@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="index.css">
+    
+    <title>HTML Form</title>
+
+</head>
+<body>
+
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+    
+    <main>
+        <form action="form.html" method="post">
+            <section>
+                 <h2 id="txt-help">How can we help you?</h2>
+                 <ul>
+                    <li>
+                         <label for="user-name">Your name</label>
+                    <input type="text" required id="user-name" name="username">
+                    </li>
+            
+                    <li>
+                          <label for="user-email">Your Email</label>
+                    <input type="email" required id="user-email" name="user-email">
+                    </li>
+                    <li>
+                         <label for="user-phoneNumber">Your Phone Number</label>
+                    <input type="tel" required id="user-phoneNumber" name="user-phoneNumber" minlength="11">
+                    </li>
+                    <li>
+                         <label for="user-message">Your Message</label>
+                    <textarea name="user-message" id="user-message" cols="30" rows="10" minlength="30" maxlength="200"></textarea>
+                    </li>
+                 </ul>
+                   
+            </section>
+                   
+            <section> 
+                 <h2>How did hear about us</h2>
+                <ul>
+                    <li>
+                    <select name="advert-target" id="advert-target">
+                    <option value="web-serach">Web search</option>
+                    <option value="whatsApp">whatsApp</option>
+                    <option value="email-promotion">Email Promotion</option>
+                    <option value="from-a-friend">From a friend</option>
+                    <option value="others">Others</option>
+                </select>
+                    </li>
+                </ul>       
+            </section>
+                   
+                    <section >
+                        <h2>How should we reply?</h2>
+                        <div class="reply"> 
+                            <input type="radio" id="call-me" name="reply-via" value="reply-by-calling">
+                            <label for="call-me">Call me</label>
+                        </div>
+                       <div class="reply">
+                         <input type="radio" id="send-me-email" name="reply-via" value="reply-by-email">
+                        <label for="send-me-email">Send me email</label>
+                       </div>
+            
+                       <div class="reply">
+                        <input type="radio" id="dont-reply" name="reply-via" value="dont-reply">
+                        <label for="dont-reply">Don't reply</label>
+                       </div>
+            
+                        
+                    </section>
+            
+                    <section id="accept-terms">
+                        <input type="checkbox" name="accept-terms" id="accept-terms">
+                       <label for="accept-terms">Accept Terms & Condition</label>
+                    </section>
+            
+                    <section id="button">
+                        <button type="reset">Clear</button>
+                        <button type="submit" id="submit-form">Submit</button>
+                    </section>
+                </form>
+    </main>
+   
+
+    
+</body>
+</html>

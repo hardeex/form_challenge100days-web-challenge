@@ -1,0 +1,46 @@
+body{
+   background: linear-gradient(193deg, rgb(23, 27, 25), rgb(30,33, 36));
+    /* background-color: rgb(30, 31, 30); */
+    font-family: 'Roboto', sans-serif;
+}
+
+form{
+    background-color: rgb(255, 255, 255);
+    width: 30rem;
+    margin: 3rem auto;
+    padding: 1rem;
+    border-radius: 6px;
+    font-family: inherit;
+}
+
+label{
+    display: block;
+    margin-bottom: 0.5rem; 
+}
+
+input{
+    width: 100%;
+    display: block;
+    margin-bottom: 1.5rem;
+    box-sizing: border-box;
+    font-family: inherit;
+    border: 1px solid rgb(104, 104, 104);
+    padding: 0.4rem;
+    color: rgb(43, 41, 41);
+}
+
+button{
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 1.2rem;
+    /* font: bold 1.2rem, 'Roboto', sans-serif; */
+}
+
+.verify-account{
+    display: flex;
+}
+
+.verify-account input{
+    width: auto;
+    margin-right: 0.5rem;
+}

@@ -1,0 +1,106 @@
+body{
+    background-color: rgb(224, 233, 233);
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: rgb(20, 6, 6);
+}
+
+#txt-help{
+    margin-bottom: 1rem;
+}
+
+h2{
+    font-size: 1.3rem;
+    margin: 0;
+}
+
+form{
+    width: 35rem;
+    margin: auto;
+    background-color: rgb(250, 250, 250);
+    padding: 1.2rem;
+    border-radius: 6px;
+    font-family: inherit;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+section{
+    margin-bottom: 1rem;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+label{
+    display: block;
+    
+}
+
+input,
+textarea,
+select{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: inherit;
+    margin-bottom: 0.5rem;
+}
+
+input:focus,
+textarea:focus{
+    color: rgb(43, 43, 43);
+    background-color: rgb(224, 233, 233);
+}
+
+textarea{
+    resize: vertical;
+}
+
+.reply,
+#accept-terms{
+    display: flex;
+}
+
+.reply input,
+#accept-terms {
+    width: auto;
+    margin-right: 0.6rem;
+}
+
+#accept-terms{
+    justify-content: center;
+}
+
+#button{
+  text-align: right;
+  
+}
+
+button{
+    font-family: inherit;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid rgb(194, 185, 185);
+    padding: 0.4rem 1.4rem;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(107, 101, 101);
+    color: white;
+}
+
+#submit-form{
+    background-color: rgb(20, 21, 21);
+    color: white;
+}
+
+#submit-form:hover{
+    background-color: rgb(40, 41, 41);
+}
